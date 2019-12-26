@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Cart</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="wrap-page">
+		<div class="container">
+			<h2>Giỏ hàng</h2>
+			<p>Chi tiết giỏ hàng của bạn:</p>
+			<table class="table table-hover">
+				<thead class="thead-light">
+					<tr>
+						<th scope="col">Mã sản phẩm</th>
+						<th scope="col">Tên sản phẩm</th>
+						<th scope="col">Hình ảnh</th>
+						<th scope="col">Giá tiền</th>
+						<th scope="col">Số lượng</th>
+						<th scope="col">Thảnh tiền</th>
+						<th scope="col"></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Máy ảnh</td>
+						<td>Imgage</td>
+						<td>123123<b>đ</b></td>
+						<td>2</td>
+						<td>232132<b>đ</b></td>
+						<td><button style="cursor:pointer">&times;</button></td>
+					</tr>
+				</tbody>
+			</table>
+			<p>Tổng hóa đơn thanh toán <strong>200000<b>đ</b></strong></p>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="product">
+						<form name="product1" action="" method="post">
+							<div class="card mb-4 box-shadow">
+				                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 250px; width: 100%; display: block;" src="../img/camera.jpg" data-holder-rendered="true">
+				                <div class="card-body">
+				                    <p class="card-text">Sản phẩm 1</p>
+				                    <div class="d-flex justify-content-between align-items-center">
+					                    <div class="form-inline">
+					                     	<input type="text" name="quantity" value="1" class="form-control">
+					                     	<button style="margin-left:10px" type="button" class="btn btn-sm btn-outline-secondary">Thêm vào giỏ hàng</button>
+					                    </div>
+				                  	</div>
+			                	</div>
+              				</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="product">
+						<form name="product1" action="" method="post">
+							<div class="card mb-4 box-shadow">
+				                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 250px; width: 100%; display: block;" src="../img/hdd.jpg" data-holder-rendered="true">
+				                <div class="card-body">
+				                    <p class="card-text">Sản phẩm 2</p>
+				                    <div class="d-flex justify-content-between align-items-center">
+					                    <div class="form-inline">
+					                     	<input type="text" name="quantity" value="1" class="form-control">
+					                     	<button style="margin-left:10px" type="button" class="btn btn-sm btn-outline-secondary">Thêm vào giỏ hàng</button>
+					                    </div>
+				                  	</div>
+			                	</div>
+              				</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="product">
+						<form name="product1" action="" method="post">
+							<div class="card mb-4 box-shadow">
+				                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 250px; width: 100%; display: block;" src="../img/smart-watch.jpg" data-holder-rendered="true">
+				                <div class="card-body">
+				                    <p class="card-text">Sản phẩm 3</p>
+				                    <div class="d-flex justify-content-between align-items-center">
+					                    <div class="form-inline">
+					                     	<input type="text" name="quantity" value="1" class="form-control">
+					                     	<button style="margin-left:10px" type="button" class="btn btn-sm btn-outline-secondary">Thêm vào giỏ hàng</button>
+					                    </div>
+				                  	</div>
+			                	</div>
+              				</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="product">
+						<form name="product1" action="" method="post">
+							<div class="card mb-4 box-shadow">
+				                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 250px; width: 100%; display: block;" src="../img/intel.jpg" data-holder-rendered="true">
+				                <div class="card-body">
+				                    <p class="card-text">Sản phẩm 4</p>
+				                    <div class="d-flex justify-content-between align-items-center">
+					                    <div class="form-inline">
+					                     	<input type="text" name="quantity" value="1" class="form-control">
+					                     	<button style="margin-left:10px" type="button" class="btn btn-sm btn-outline-secondary">Thêm vào giỏ hàng</button>
+					                    </div>
+				                  	</div>
+			                	</div>
+              				</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
